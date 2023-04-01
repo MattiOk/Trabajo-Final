@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+@font-face{
+    font-family: LaoMuangDon-Regular;
+    src: url(/fonts/LaoMuangDon-Regular.ttf);
+}
+
 nav{
     display: flex;
     width: 98%;
@@ -21,9 +26,11 @@ a{
     text-align: center;
 }
 
-.imagen{
-    width: 100%;
-    opacity: 40%;
+main{
+    padding-bottom: 1000px;
+    background-image: url(/Img/zzz.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 input{
@@ -54,4 +61,9 @@ input:focus{
     position: absolute;
     font-size: 20px;
     margin-left: 7px;
+}
+
+h1{
+    font-family: "LaoMuangDon-Regular";
+    font-size: 64px;
 }
