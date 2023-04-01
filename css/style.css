@@ -22,5 +22,18 @@ a{
 }
 
 .imagen{
+    width: 100%;
     opacity: 40%;
+}
+
+input{
+    font-size: 25px;
+    border-radius: 18px;
+}
+
+.iconos{
+    width: 16.6%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
 }
