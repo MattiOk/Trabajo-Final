@@ -18,9 +18,10 @@ nav{
     color: white;
     font-family: "inter", "sans-serif";
     font-size: 24px;
+    box-shadow: 0px 5px 7px black;
 }
 
-a{
+.a-header{
     text-decoration: none;
     color: white;
     text-align: center;
@@ -65,5 +66,34 @@ input:focus{
 
 h1{
     font-family: "LaoMuangDon-Regular";
-    font-size: 64px;
+    font-size: 80px;
+}
+
+.CodeCourse-Business{
+    background-color: #1C1D1F;
+    color: white;
+    font-size: 35px;
+    border-bottom: solid 3px #3E4143;
+    padding: 25px;
+}
+
+.texto-footer{
+    color: #EE0E51
+}
+
+.contenedor-enlaces{
+    font-size: 30px;
+    width: 80%;
+    height: 420px;
+    background-color: #1C1D1F;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.contenedor-enlaces a{
+    text-decoration: none;
+    color: white;
+    margin: 25px;
 }
