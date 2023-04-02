@@ -70,15 +70,19 @@ h1{
     font-size: 80px;
 }
 
-.CodeCourse-Business{
+.Contenedor-empresas{
     background-color: #1C1D1F;
     color: white;
     font-size: 35px;
     border-bottom: solid 3px #3E4143;
     padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.texto-footer{
+.Contenedor-empresas .texto-rojo{
     color: #EE0E51
 }
 
