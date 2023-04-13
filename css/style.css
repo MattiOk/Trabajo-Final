@@ -15,8 +15,6 @@ a{
 
 nav{
     display: flex;
-    width: 100%;
-    padding-right: 2%;
     justify-content: space-between;
     align-items: center;
     background-color:#1C1D1F;
@@ -24,6 +22,8 @@ nav{
     font-family: "inter", "sans-serif";
     font-size: 1.6rem;
     box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.623);
+    width: 100%;
+    padding-right: 1%;
 }
 
 .a-header{
@@ -67,6 +67,7 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center center;
     margin: 25px;
     margin-top: 0px;
 }
@@ -145,6 +146,7 @@ label{
     border: solid white;
     margin-top: 40px;
     font-size: 40px;
+    font-weight: bold;
 }
 
 .btn-enviar:hover{
@@ -232,3 +234,21 @@ label{
     padding-bottom: 25px;
 }
 /* ---------------------------------------------------- */
+
+@media (max-width: 720px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color:#1C1D1F;
+        color: white;
+        font-family: "inter", "sans-serif";
+        font-size: 1.6rem;
+        box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.623);
+        width: 100%;
+        padding-right: 1%;
+    }
+
+
+}
