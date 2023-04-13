@@ -32,14 +32,14 @@ nav{
     text-align: center;
 }
 
-input{
+#busqueda{
     font-size: 1.5rem;
     border-radius: 18px;
     padding-left: 30px;  
     outline: none;
 }
 
-input:focus{
+#busqueda:focus{
     border: 2px solid red;
 }
 
@@ -145,13 +145,14 @@ label{
     border: solid white;
     margin-top: 40px;
     font-size: 40px;
-    }
-    .btn-enviar:hover{
-        transition: 1s ease-in-out;
-        color: white;
-        background-color: rgb(14, 142, 14);
-        font-size: 40px;
-    }
+}
+
+.btn-enviar:hover{
+    transition: 1s ease-in-out;
+    color: white;
+    background-color: rgb(14, 142, 14);
+    font-size: 40px;
+}
 
 .contenedor-boton{
     display: flex;
