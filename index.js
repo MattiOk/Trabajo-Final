@@ -1,7 +1,7 @@
 const profesores= [
     {
         id: 1,
-        name: "ALEJANDRA SANMILLAN",
+        name: "ALEJANDRA <br> SANMILLAN",
         materia: "HTML",
         img: './AvatarMujer',
     },
@@ -13,7 +13,7 @@ const profesores= [
     },
     {
         id: 3,
-        name: "GERSON AGÜERO",
+        name: "GERSON <br> AGÜERO",
         materia: "CSS",
         img: "/AvatarHombre"
     },
@@ -25,13 +25,13 @@ const profesores= [
     },
     {
         id: 5,
-        name: "CELESTE RODRIGUEZ",
+        name: "CELESTE <br> RODRIGUEZ",
         materia: "CSS",
         img: "/AvatarHombre"
     },
     {
         id: 6,
-        name: "NICOLAS ROSANE",
+        name: "NICOLAS <br> ROSANE",
         materia: "CSS",
         img: "/AvatarHombre"
     }
