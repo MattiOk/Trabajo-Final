@@ -23,7 +23,7 @@ nav{
     color: white;
     font-family: "inter", "sans-serif";
     font-size: 1.6rem;
-    box-shadow: 0px 5px 7px black;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.623);
 }
 
 .a-header{
@@ -64,16 +64,18 @@ input:focus{
 
 main{
     background-image: url(https://i.ibb.co/YhjM3Zy/zzz.png);
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 25px;
+    margin-top: 0px;
 }
 
 h1{
     font-family: "LaoMuangDon-Regular", "sans-serif";
     font-size: 5.5rem;
     font-weight: normal;
-    margin-top: 70px;
+    padding-top: 30px;
     margin-bottom: 40px;
 }
 
@@ -100,6 +102,7 @@ h2{
     padding-bottom: 50px;
     margin-right: -25px;
     margin-left: -25px;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.623);
 }
 
 form{
@@ -181,6 +184,7 @@ label{
     justify-content: space-between;
     align-items: center;
     align-content: center;
+    box-shadow: 0px 5px 40px rgba(0, 0, 0, 0.623);
 }
 
 .Contenedor-empresas .texto-rojo{
