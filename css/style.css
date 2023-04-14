@@ -333,4 +333,12 @@ label{
         font-size: 17px;
     }
 
+    body{
+        overflow-x:hidden;
+    }
+
+    .Contenedor-empresas{
+        display: flex;
+        flex-direction: column;
+    }
 }
