@@ -271,5 +271,21 @@ label{
         gap: 7px;
     }
 
+    h1{
+        font-family: "LaoMuangDon-Regular", "sans-serif";
+        font-size: 3.4rem;
+        font-weight: normal;
+        padding-top: 30px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .contenedor-texto p{
+        font-size: 1.5rem;
+        font-family: "inter", "sans-serif";
+        margin-bottom: 50px;
+        margin: 0px 25px;
+    }
 
 }
