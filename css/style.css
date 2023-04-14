@@ -302,8 +302,8 @@ label{
         gap: 10vh;
         padding-top: 50px;
         padding-bottom: 50px;
-        margin-right: -25px;
-        margin-left: -25px;
+        margin-right: 0px;
+        margin-left: 0px;
         box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.623);
     }
     
