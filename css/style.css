@@ -13,6 +13,11 @@ a{
     text-decoration: none;
 }
 
+html{
+    width:100%;
+    overflow: hidden;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -244,7 +249,7 @@ label{
 
 /* ---------------------------------------------------- */
 
-@media (max-width: 720px){
+@media (max-width: 375px){
     nav{
         display: flex;
         flex-direction: column;
@@ -328,4 +333,10 @@ label{
         padding: 5px;
         font-size: 17px;
     }
+
+    body{
+        width:100%;
+        overflow-x: hidden;
+    }
+
 }
