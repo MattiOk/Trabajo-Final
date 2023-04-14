@@ -246,7 +246,7 @@ label{
 
 /* ---------------------------------------------------- */
 
-@media (max-width: 412px){
+@media (max-width: 720px){
     nav{
         display: flex;
         flex-direction: column;
