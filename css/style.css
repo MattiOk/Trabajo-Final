@@ -26,10 +26,17 @@ nav{
     padding-right: 1%;
 }
 
+.contenedor-enlace1{
+    display: flex;
+    flex-direction: column;
+}
+
 .a-header{
     text-decoration: none;
     color: white;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 #busqueda{
@@ -68,22 +75,23 @@ main{
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-    margin: 25px;
-    margin-top: 0px;
 }
 
 h1{
     font-family: "LaoMuangDon-Regular", "sans-serif";
-    font-size: 5.5rem;
+    font-size: 5rem;
     font-weight: normal;
     padding-top: 30px;
     margin-bottom: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .contenedor-texto p{
-    font-size: 2.5rem;
+    font-size: 1.7rem;
     font-family: "inter", "sans-serif";
     margin-bottom: 50px;
+    margin: 0px 25px;
 }
 
 h2{
@@ -165,8 +173,7 @@ label{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin: 40px 20px;
 }
 
 #h2-profesionales{
@@ -174,14 +181,15 @@ label{
     justify-content: center;
     text-align: center;
     margin-top: 25px;
+    font-size: 2.5rem;
 }
 
 .Contenedor-empresas{
     background-color: #1C1D1F;
     color: white;
-    font-size: 2rem;
+    font-size: 1.7rem;
     border-bottom: solid 3px #3E4143;
-    padding: 25px;
+    padding: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -197,11 +205,11 @@ label{
 .contenedor-links-logo{
     background-color: #1C1D1F;
     display: flex;
-    padding: 25px;
+    padding: 20px;
 }
 
 .contenedor-links{
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     width: 80%;
     height: 380px;
     background-color: #1C1D1F;
@@ -214,7 +222,7 @@ label{
 .contenedor-links a{
     text-decoration: none;
     color: white;
-    margin: 20px;
+    margin: 20px 0px;
 }
 
 .contenedor-logo{
@@ -233,13 +241,14 @@ label{
     padding-top: 50px;
     padding-bottom: 25px;
 }
+
 /* ---------------------------------------------------- */
 
 @media (max-width: 720px){
     nav{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         align-items: center;
         background-color:#1C1D1F;
         color: white;
@@ -247,7 +256,19 @@ label{
         font-size: 1.6rem;
         box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.623);
         width: 100%;
-        padding-right: 1%;
+    }
+
+    .contenedor-iconos{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        font-size: 3.3rem;
+    }
+
+    .a-header{
+        display: flex;
+        flex-direction: row;
+        gap: 7px;
     }
 
 
