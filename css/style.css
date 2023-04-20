@@ -251,6 +251,7 @@ label{
     padding-bottom: 25px;
 }
 
+
 /* ---------------------------------------------------- */
 
 /* Estilos tarjetas */
@@ -281,6 +282,16 @@ label{
   #tarjetas {
     margin-top: 1rem;
   }
+
+  #tarjetas {
+    size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 0px;
+  }
+  
+  
 
 /* ---------------------------------------------------- */
 

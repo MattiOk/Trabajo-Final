@@ -107,6 +107,10 @@ const tarjetasDatos = [
     imagen: "https://i.ibb.co/zfTjLVR/4371056-5f97.jpg",
     texto: "Tarjeta 2",
   },
+  {
+    imagen: "https://i.ibb.co/0hLjNc4/4503440-fc76-3.jpg",
+    texto: "Tarjeta 2",
+  },
 ];
 
 for (const tarjeta of tarjetasDatos) {
@@ -114,7 +118,7 @@ for (const tarjeta of tarjetasDatos) {
   tarjetaDiv.classList.add("col");
 
   tarjetaDiv.innerHTML = `
-    <div class="card h-100">
+  <div class="card h-100" style="width: 300px;">
       <img src="${tarjeta.imagen}" class="card-img-top" alt="Imagen de la tarjeta">
       <div class="card-body">
         <p class="card-text">${tarjeta.texto}</p>
