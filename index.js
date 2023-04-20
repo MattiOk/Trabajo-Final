@@ -64,47 +64,47 @@ const tarjetasDiv = document.getElementById("tarjetas");
 
 const tarjetasDatos = [
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/k2g4yVc/751768-27d8.jpg",
     texto: "Tarjeta 1",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/svv9dbB/763172-d61c-4.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/Sc58f1w/1192848-e63a.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/S6jx3DB/1471126-4841-4.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/z8Dk2jp/1539258-ac4e-2.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/Rycj4fb/2544807-f6c0-2.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/TrVQKMW/2801382-452d-2.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/J7TN3Sd/3109474-6f39-6.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/W3cSXwT/3875746-161e.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/jLzTLrr/4197094-f0d9.jpg",
     texto: "Tarjeta 2",
   },
   {
-    imagen: "https://via.placeholder.com/150",
+    imagen: "https://i.ibb.co/zfTjLVR/4371056-5f97.jpg",
     texto: "Tarjeta 2",
   },
 ];
