@@ -46,7 +46,7 @@ profesores.map((x) => {
         <img src="${x.img}" class="card-img-top" alt="${x.name}">
         <div class="card-body">
         <h5 class="card-title text-center text-primary">${x.name}</h5>
-        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum soluta beatae, labore optio architecto, voluptates quos officiis consequuntur culpa nemo nam? Sapiente quae enim corporis, modi aspernatur eaque asperiores nihil.</p>
+        <p class="card-text">Nuestros profesores de Codecourses son expertos en sus desarrollo de software, con amplia experiencia en la enseñanza y un enfoque práctico para el aprendizaje. Aprende de los mejores y mejora tus habilidades en programación, diseño web y más. ¡Inscríbete hoy y alcanza tus metas con nuestros talentosos profesores!</p>
         </div>
     </div>
     </div>
