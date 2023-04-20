@@ -3,37 +3,37 @@ const profesores= [
         id: 1,
         name: "ALEJANDRA <br> SANMILLAN",
         materia: "HTML",
-        img: './AvatarMujer',
+        img: 'https://hips.hearstapps.com/ellees.h-cdn.co/assets/16/35/1024x1024/square-original-573cdd52ba3fpareja-sexo-mente-ok-tu-rostro-habla-por-ti-12718540-1-esl-es-tu-rostro-habla-por-ti-jpg.jpg?resize=1200:*',
     },
     {
         id: 2,
         name: "GONZALO EZEQUIEL BETTI",
         materia: "CSS",
-        img: "/AvatarHombre"
+        img: "https://crehana-blog.imgix.net/media/filer_public/e3/d1/e3d13ef9-e5a1-46bb-8727-24446dfb55d1/rostro_rectangular.jpg?auto=format&q=50"
     },
     {
         id: 3,
         name: "GERSON <br> AGÜERO",
         materia: "CSS",
-        img: "/AvatarHombre"
+        img: "https://modaellos.com/wp-content/uploads/2022/07/rostro-masculino-barba.png"
     },
     {
         id: 4,
         name: "MATIAS RICARDO FIGUEROA",
         materia: "Uñas",
-        img: "/AvatarHombre"
+        img: "https://img.freepik.com/foto-gratis/hombre-joven-guapo-nuevo-corte-pelo-estilo_176420-19636.jpg"
     },
     {
         id: 5,
         name: "CELESTE <br> RODRIGUEZ",
         materia: "CSS",
-        img: "/AvatarHombre"
+        img: "https://www.publimetro.cl/resizer/oB82kucbaMlMhsvBxvzwIjUXJAo=/1440x1080/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/EE5G5BOLLNETDMOMLQJMMJEGTE.jpg"
     },
     {
         id: 6,
         name: "NICOLAS <br> ROSANE",
         materia: "CSS",
-        img: "/AvatarHombre"
+        img: "https://img.freepik.com/foto-gratis/concepto-emociones-personas-foto-cabeza-hombre-guapo-aspecto-serio-barba-confiado-decidido_1258-26730.jpg"
     }
 ]
 
