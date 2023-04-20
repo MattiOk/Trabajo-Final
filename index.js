@@ -66,50 +66,62 @@ const tarjetasDatos = [
   {
     imagen: "https://i.ibb.co/k2g4yVc/751768-27d8.jpg",
     texto: "Fundamentos de Programacion",
+    otrotexto: "Aprende las Bases de la Programación en 9 lenguajes a la vez: Java, Python, Go, C++, PHP, Ruby, C#, JavaScript y C"
   },
   {
     imagen: "https://i.ibb.co/svv9dbB/763172-d61c-4.jpg",
     texto: "JavaScript: de cero hasta los detalles (ES5)",
+    otrotexto: "En este poderoso lenguaje de programación web cada día más utilizado"
   },
   {
     imagen: "https://i.ibb.co/Sc58f1w/1192848-e63a.jpg",
     texto: "Curso de C++: Básico a Avanzado",
+    otrotexto: "Curso diseñado para principiantes o estudiantes universitarios sin conocimientos previos."
   },
   {
     imagen: "https://i.ibb.co/S6jx3DB/1471126-4841-4.jpg",
     texto: "Programación en C de Cero a Experto",
+    otrotexto: "Lenguaje C con Algoritmos, Estructuras de Datos como Listas, Pilas, Colas."
   },
   {
     imagen: "https://i.ibb.co/z8Dk2jp/1539258-ac4e-2.jpg",
     texto: "Curso MySQL de cero hasta experto",
+    otrotexto: "Bases de datos, SQL Avanzado, con una base de datos local Windows o desde un servidor real en la nube con Linux."
   },
   {
     imagen: "https://i.ibb.co/Rycj4fb/2544807-f6c0-2.jpg",
     texto: "Programación en C# avanzado",
+    otrotexto: "Aprende a programar desde cero hasta un nivel de experto, empleando el lenguaje C#"
   },
   {
     imagen: "https://i.ibb.co/TrVQKMW/2801382-452d-2.jpg",
     texto: "Programación en Java profesional",
+    otrotexto: "Aprende desde cero hasta nivel experto uno de los lenguajes más universales"
   },
   {
     imagen: "https://i.ibb.co/J7TN3Sd/3109474-6f39-6.jpg",
     texto: "Master en programación fullstack",
+    otrotexto: "Bootcamp completo HMTL5, CSS, JQuery, JavaScript, TypeScript, Angular, Node, desde cero a nivel experto"
   },
   {
     imagen: "https://i.ibb.co/W3cSXwT/3875746-161e.jpg",
     texto: "Curso de HTML5 desde cero: El más completo",
+    otrotexto: "Aprende HTML 5 y crea tus primeras páginas web paso a paso con decenas de ejercicios."
   },
   {
     imagen: "https://i.ibb.co/jLzTLrr/4197094-f0d9.jpg",
     texto: "Python 3: Desde cero para principiantes",
+    otrotexto: "Uriel, con experiencia en empresas como Amazon y Didi, te enseñará Python de una manera fácil y sencilla."
   },
   {
     imagen: "https://i.ibb.co/zfTjLVR/4371056-5f97.jpg",
     texto: "Pseudocódigo con PSeInt",
+    otrotexto: "Aprende a programar desde cero, aunque no sepas inglés, usando Pseudocódigo"
   },
   {
     imagen: "https://i.ibb.co/0hLjNc4/4503440-fc76-3.jpg",
     texto: "Aprende CSS3 - Conoce lo Nuevo",
+    otrotexto: "Conoce las propiedades y las novedades que trae CSS en su versión 3 para lograr los mejores estilos."
   },
 ];
 
@@ -124,10 +136,10 @@ for (const tarjeta of tarjetasDatos) {
     <div class="card h-100">
       <img src="${tarjeta.imagen}" class="card-img-top" alt="Imagen de la tarjeta">
       <div class="card-body">
-        <p class="card-text">${tarjeta.texto}</p>
-      </div>
-    </div>
-  `;
+    <p class="card-text" style="font-weight:bold; font-size:20px">${tarjeta.texto}</p>
+    <p class="card-text" style="font-size:20px">${tarjeta.otrotexto}</p>
+  </div>
+    </div>`;
 
   rowDiv.appendChild(tarjetaDiv);
 }
