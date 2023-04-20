@@ -9,7 +9,7 @@ const profesores= [
         id: 2,
         name: "GONZALO EZEQUIEL BETTI",
         materia: "CSS",
-        img: "https://crehana-blog.imgix.net/media/filer_public/e3/d1/e3d13ef9-e5a1-46bb-8727-24446dfb55d1/rostro_rectangular.jpg?auto=format&q=50"
+        img: "https://crehana-blog.imgix.net/media/filer_public/e3/d1/e3d13ef9-e5a1-46bb-8727-24446dfb55d1/rostro_rectangular.jpg?auto=format&q=50" 
     },
     {
         id: 3,
@@ -59,3 +59,68 @@ formularioUsuarios.addEventListener("submit",(event) =>{
     event.preventDefault()
     console.log(formularioUsuarios.seleccione.value)
 })
+
+const tarjetasDiv = document.getElementById("tarjetas");
+
+const tarjetasDatos = [
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 1",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+  {
+    imagen: "https://via.placeholder.com/150",
+    texto: "Tarjeta 2",
+  },
+];
+
+for (const tarjeta of tarjetasDatos) {
+  const tarjetaDiv = document.createElement("div");
+  tarjetaDiv.classList.add("col");
+
+  tarjetaDiv.innerHTML = `
+    <div class="card h-100">
+      <img src="${tarjeta.imagen}" class="card-img-top" alt="Imagen de la tarjeta">
+      <div class="card-body">
+        <p class="card-text">${tarjeta.texto}</p>
+      </div>
+    </div>
+  `;
+
+  tarjetasDiv.appendChild(tarjetaDiv);
+}
