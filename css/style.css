@@ -248,6 +248,36 @@ label{
 
 /* ---------------------------------------------------- */
 
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .card img {
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-text {
+    margin: 0;
+  }
+  
+
+  #tarjetas {
+    margin-top: 1rem;
+  }
+
+/* ---------------------------------------------------- */
+
 @media (max-width: 720px){
     nav{
         display: flex;
